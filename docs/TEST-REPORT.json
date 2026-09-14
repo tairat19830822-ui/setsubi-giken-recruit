@@ -1,0 +1,165 @@
+{
+  "status": "PASS",
+  "sections_in_html": [
+    "section-01",
+    "section-02",
+    "section-03",
+    "section-04",
+    "section-05",
+    "section-06",
+    "section-07",
+    "section-08",
+    "section-09",
+    "section-10",
+    "section-11",
+    "section-12"
+  ],
+  "section11_point_cards": 4,
+  "section11_faq_cards": 3,
+  "section12_form_fields": 6,
+  "section11_photo_count": 5,
+  "section12_photo_count": 1,
+  "missing_local_references": [],
+  "new_icons": {
+    "assets/footer/icons/company-mark.png": {
+      "mode": "RGBA",
+      "size": [
+        1024,
+        1024
+      ],
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    "assets/section-11/icons/faq-overtime.png": {
+      "mode": "RGBA",
+      "size": [
+        1024,
+        1024
+      ],
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    "assets/section-11/icons/faq-qualification.png": {
+      "mode": "RGBA",
+      "size": [
+        1024,
+        1024
+      ],
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    "assets/section-11/icons/faq-women.png": {
+      "mode": "RGBA",
+      "size": [
+        1024,
+        1024
+      ],
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    "assets/section-11/icons/point-beginner.png": {
+      "mode": "RGBA",
+      "size": [
+        1024,
+        1024
+      ],
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    "assets/section-11/icons/point-holiday.png": {
+      "mode": "RGBA",
+      "size": [
+        1024,
+        1024
+      ],
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    "assets/section-11/icons/point-salary.png": {
+      "mode": "RGBA",
+      "size": [
+        1024,
+        1024
+      ],
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    "assets/section-11/icons/point-talk.png": {
+      "mode": "RGBA",
+      "size": [
+        1024,
+        1024
+      ],
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    "assets/section-12/icons/form.png": {
+      "mode": "RGBA",
+      "size": [
+        1024,
+        1024
+      ],
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    "assets/section-12/icons/location.png": {
+      "mode": "RGBA",
+      "size": [
+        1024,
+        1024
+      ],
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    "assets/section-12/icons/mail.png": {
+      "mode": "RGBA",
+      "size": [
+        1024,
+        1024
+      ],
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    "assets/section-12/icons/phone.png": {
+      "mode": "RGBA",
+      "size": [
+        1024,
+        1024
+      ],
+      "alpha_range": [
+        0,
+        255
+      ]
+    }
+  },
+  "script_loaded": true,
+  "entry_form_backend_connected": false,
+  "notes": [
+    "Supabase/CMS未実装",
+    "SECTION 11・12・footerは既存SECTION 01〜10と同じindex.htmlへ増築",
+    "フォームは必須チェックまで実装、外部送信は未接続",
+    "新規アイコンは透過PNG"
+  ]
+}

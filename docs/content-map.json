@@ -1,0 +1,1426 @@
+{
+  "purpose": "将来の授業用の編集箇所一覧。データ取得処理は未実装。",
+  "section": "01-12",
+  "contents": [
+    {
+      "key": "section01.label",
+      "selector": "[data-content-key=\"section01.label\"]",
+      "value": "SECTION 01"
+    },
+    {
+      "key": "section01.lead",
+      "selector": "[data-content-key=\"section01.lead\"]",
+      "value": "はじめてでも、プロになれる場所がある。"
+    },
+    {
+      "key": "section01.title.line01",
+      "selector": "[data-content-key=\"section01.title.line01\"]",
+      "value": "工具の名前も"
+    },
+    {
+      "key": "section01.title.line02",
+      "selector": "[data-content-key=\"section01.title.line02\"]",
+      "value": "知らなかった人が、"
+    },
+    {
+      "key": "section01.title.line03",
+      "selector": "[data-content-key=\"section01.title.line03\"]",
+      "value": "ここでは"
+    },
+    {
+      "key": "section01.title.line04",
+      "selector": "[data-content-key=\"section01.title.line04\"]",
+      "value": "【できる人】になる。"
+    },
+    {
+      "key": "section01.body.line01",
+      "selector": "[data-content-key=\"section01.body.line01\"]",
+      "value": "沖縄で給排水・空調・消火の設備工事を手がける設備技研。"
+    },
+    {
+      "key": "section01.body.line02",
+      "selector": "[data-content-key=\"section01.body.line02\"]",
+      "value": "経験は問いません。面接は1回。"
+    },
+    {
+      "key": "section01.body.line03",
+      "selector": "[data-content-key=\"section01.body.line03\"]",
+      "value": "先輩が隣について、少しずつ「できること」を増やしていける、"
+    },
+    {
+      "key": "section01.body.line04",
+      "selector": "[data-content-key=\"section01.body.line04\"]",
+      "value": "未経験からでも、ちゃんと育つ会社です。"
+    },
+    {
+      "key": "section01.benefit.beginner.title",
+      "selector": "[data-content-key=\"section01.benefit.beginner.title\"]",
+      "value": "未経験歓迎"
+    },
+    {
+      "key": "section01.benefit.beginner.body",
+      "selector": "[data-content-key=\"section01.benefit.beginner.body\"]",
+      "value": "経験・資格は不要"
+    },
+    {
+      "key": "section01.benefit.interview.title",
+      "selector": "[data-content-key=\"section01.benefit.interview.title\"]",
+      "value": "面接1回"
+    },
+    {
+      "key": "section01.benefit.interview.body",
+      "selector": "[data-content-key=\"section01.benefit.interview.body\"]",
+      "value": "スピード選考"
+    },
+    {
+      "key": "section01.benefit.salary.title",
+      "selector": "[data-content-key=\"section01.benefit.salary.title\"]",
+      "value": "月給20万円〜"
+    },
+    {
+      "key": "section01.benefit.salary.body",
+      "selector": "[data-content-key=\"section01.benefit.salary.body\"]",
+      "value": "頑張りをしっかり評価"
+    },
+    {
+      "key": "section02.label",
+      "selector": "[data-content-key=\"section02.label\"]",
+      "value": "SECTION 02"
+    },
+    {
+      "key": "section02.title.line01",
+      "selector": "[data-content-key=\"section02.title.line01\"]",
+      "value": "ひとつでも当てはまれば、"
+    },
+    {
+      "key": "section02.title.line02",
+      "selector": "[data-content-key=\"section02.title.line02\"]",
+      "value": "まず話を聞きに来てください。"
+    },
+    {
+      "key": "section02.card01",
+      "selector": "[data-content-key=\"section02.card01\"]",
+      "value": "資格も経験もないけど、 手に職をつけたい"
+    },
+    {
+      "key": "section02.card02",
+      "selector": "[data-content-key=\"section02.card02\"]",
+      "value": "今の仕事に、 なんとなく 物足りなさを 感じている"
+    },
+    {
+      "key": "section02.card03",
+      "selector": "[data-content-key=\"section02.card03\"]",
+      "value": "フリーターから 正社員を 目指したい"
+    },
+    {
+      "key": "section02.card04",
+      "selector": "[data-content-key=\"section02.card04\"]",
+      "value": "地元・沖縄で、 長く続けられる 仕事を探している"
+    },
+    {
+      "key": "section02.card05",
+      "selector": "[data-content-key=\"section02.card05\"]",
+      "value": "「盗んで覚えろ」と 言われる職場が 苦手"
+    },
+    {
+      "key": "section02.reassurance.line01",
+      "selector": "[data-content-key=\"section02.reassurance.line01\"]",
+      "value": "今活躍している先輩たちも、"
+    },
+    {
+      "key": "section02.reassurance.line02",
+      "selector": "[data-content-key=\"section02.reassurance.line02\"]",
+      "value": "みんな同じところからのスタートでした。"
+    },
+    {
+      "key": "section03.label",
+      "selector": "[data-content-key=\"section03.label\"]",
+      "value": "SECTION 03｜設備技研が選ばれる理由"
+    },
+    {
+      "key": "section03.title.line01",
+      "selector": "[data-content-key=\"section03.title.line01\"]",
+      "value": "設備技研はここが凄い！"
+    },
+    {
+      "key": "section03.title.line02",
+      "selector": "[data-content-key=\"section03.title.line02\"]",
+      "value": "働きやすさの改善に"
+    },
+    {
+      "key": "section03.title.line03",
+      "selector": "[data-content-key=\"section03.title.line03\"]",
+      "value": "本気で取り組んでいます"
+    },
+    {
+      "key": "section03.reason01.title",
+      "selector": "[data-content-key=\"section03.reason01.title\"]",
+      "value": "面接1回・経験不問"
+    },
+    {
+      "key": "section03.reason01.body01",
+      "selector": "[data-content-key=\"section03.reason01.body01\"]",
+      "value": "今のスキルや経験は問いません。"
+    },
+    {
+      "key": "section03.reason01.body02",
+      "selector": "[data-content-key=\"section03.reason01.body02\"]",
+      "value": "工具の名前がひとつもわからない状態から入社した先輩もいます。"
+    },
+    {
+      "key": "section03.reason01.body03",
+      "selector": "[data-content-key=\"section03.reason01.body03\"]",
+      "value": "先輩がマンツーマンでつくので、段階を踏んで成長できます。"
+    },
+    {
+      "key": "section03.reason01.body04",
+      "selector": "[data-content-key=\"section03.reason01.body04\"]",
+      "value": "先輩がしっかりサポートするので、"
+    },
+    {
+      "key": "section03.reason01.body05",
+      "selector": "[data-content-key=\"section03.reason01.body05\"]",
+      "value": "未経験からでも安心してスタートできます。"
+    },
+    {
+      "key": "section03.reason02.title",
+      "selector": "[data-content-key=\"section03.reason02.title\"]",
+      "value": "4連休が取れる"
+    },
+    {
+      "key": "section03.reason02.body01",
+      "selector": "[data-content-key=\"section03.reason02.body01\"]",
+      "value": "週休2日＋有休で4連休も可能"
+    },
+    {
+      "key": "section03.reason02.body02",
+      "selector": "[data-content-key=\"section03.reason02.body02\"]",
+      "value": "週休2日制を導入。休日と有給を組み合わせれば4連休も可能です。"
+    },
+    {
+      "key": "section03.reason02.body03",
+      "selector": "[data-content-key=\"section03.reason02.body03\"]",
+      "value": "プライベートが充実していないと、仕事にも全力投球できない——"
+    },
+    {
+      "key": "section03.reason02.body04",
+      "selector": "[data-content-key=\"section03.reason02.body04\"]",
+      "value": "そう考えています。"
+    },
+    {
+      "key": "section03.reason02.body05",
+      "selector": "[data-content-key=\"section03.reason02.body05\"]",
+      "value": "休日と有休を組み合わせれば4連休も取得可能。"
+    },
+    {
+      "key": "section03.reason02.body06",
+      "selector": "[data-content-key=\"section03.reason02.body06\"]",
+      "value": "プライベートを大事にできてこそ、仕事にも力が入ります。"
+    },
+    {
+      "key": "section03.reason03.title",
+      "selector": "[data-content-key=\"section03.reason03.title\"]",
+      "value": "月給20万円〜、頑張った分だけ評価"
+    },
+    {
+      "key": "section03.reason03.body01",
+      "selector": "[data-content-key=\"section03.reason03.body01\"]",
+      "value": "月収20万円〜、能力に応じて昇給"
+    },
+    {
+      "key": "section03.reason03.body02",
+      "selector": "[data-content-key=\"section03.reason03.body02\"]",
+      "value": "脱フリーターを目指す方も、キャリアチェンジしたい方も、"
+    },
+    {
+      "key": "section03.reason03.body03",
+      "selector": "[data-content-key=\"section03.reason03.body03\"]",
+      "value": "前向きな意欲があれば月給20万円〜でお迎えします。"
+    },
+    {
+      "key": "section03.reason03.body04",
+      "selector": "[data-content-key=\"section03.reason03.body04\"]",
+      "value": "実力に応じてしっかり評価する仕組みがあります。"
+    },
+    {
+      "key": "section03.reason03.body05",
+      "selector": "[data-content-key=\"section03.reason03.body05\"]",
+      "value": "フリーターから正社員へ、キャリアチェンジも歓迎。"
+    },
+    {
+      "key": "section03.reason03.body06",
+      "selector": "[data-content-key=\"section03.reason03.body06\"]",
+      "value": "前向きな意欲があれば、しっかり応えます。"
+    },
+    {
+      "key": "section03.reason04.title",
+      "selector": "[data-content-key=\"section03.reason04.title\"]",
+      "value": "「盗んで覚えろ」文化はありません"
+    },
+    {
+      "key": "section03.reason04.body01",
+      "selector": "[data-content-key=\"section03.reason04.body01\"]",
+      "value": "先輩社員がツーマンセルでフォローする体制のもと、"
+    },
+    {
+      "key": "section03.reason04.body02",
+      "selector": "[data-content-key=\"section03.reason04.body02\"]",
+      "value": "知識・技術を順序立てて教えます。"
+    },
+    {
+      "key": "section03.reason04.body03",
+      "selector": "[data-content-key=\"section03.reason04.body03\"]",
+      "value": "わからないことを聞きやすい空気づくりを、"
+    },
+    {
+      "key": "section03.reason04.body04",
+      "selector": "[data-content-key=\"section03.reason04.body04\"]",
+      "value": "会社として大切にしています。"
+    },
+    {
+      "key": "section03.reason05.title",
+      "selector": "[data-content-key=\"section03.reason05.title\"]",
+      "value": "資格取得も会社がサポート"
+    },
+    {
+      "key": "section03.reason05.body01",
+      "selector": "[data-content-key=\"section03.reason05.body01\"]",
+      "value": "1級管工事施工管理技士、建築設備士など、"
+    },
+    {
+      "key": "section03.reason05.body02",
+      "selector": "[data-content-key=\"section03.reason05.body02\"]",
+      "value": "現場で役立つ資格取得を支援。"
+    },
+    {
+      "key": "section03.reason05.body03",
+      "selector": "[data-content-key=\"section03.reason05.body03\"]",
+      "value": "手に職をつけながら長く働けます。"
+    },
+    {
+      "key": "section04.label",
+      "selector": "[data-content-key=\"section04.label\"]",
+      "value": "SECTION 04｜仕事紹介"
+    },
+    {
+      "key": "section04.title",
+      "selector": "[data-content-key=\"section04.title\"]",
+      "value": "どんな仕事をするの？"
+    },
+    {
+      "key": "section04.job01.title",
+      "selector": "[data-content-key=\"section04.job01.title\"]",
+      "value": "工事部｜施工管理"
+    },
+    {
+      "key": "section04.job01.body01",
+      "selector": "[data-content-key=\"section04.job01.body01\"]",
+      "value": "公共工事から民間のマンション・ビルまで、"
+    },
+    {
+      "key": "section04.job01.body02",
+      "selector": "[data-content-key=\"section04.job01.body02\"]",
+      "value": "幅広い現場の管理を担う仕事です。"
+    },
+    {
+      "key": "section04.job01.body03",
+      "selector": "[data-content-key=\"section04.job01.body03\"]",
+      "value": "施工図面の作成やスケジュール調整、"
+    },
+    {
+      "key": "section04.job01.body04",
+      "selector": "[data-content-key=\"section04.job01.body04\"]",
+      "value": "安全管理などを行い、"
+    },
+    {
+      "key": "section04.job01.body05",
+      "selector": "[data-content-key=\"section04.job01.body05\"]",
+      "value": "現場を「正確に・安全に」動かす"
+    },
+    {
+      "key": "section04.job01.body06",
+      "selector": "[data-content-key=\"section04.job01.body06\"]",
+      "value": "司令塔のような役割です。"
+    },
+    {
+      "key": "section04.job01.body07",
+      "selector": "[data-content-key=\"section04.job01.body07\"]",
+      "value": "BIMツール（3D CAD）なども積極的に取り入れ、"
+    },
+    {
+      "key": "section04.job01.body08",
+      "selector": "[data-content-key=\"section04.job01.body08\"]",
+      "value": "業務の効率化と品質向上を進めています。"
+    },
+    {
+      "key": "section04.job02.title",
+      "selector": "[data-content-key=\"section04.job02.title\"]",
+      "value": "工事部｜工務（メンテナンス・改修）"
+    },
+    {
+      "key": "section04.job02.body01",
+      "selector": "[data-content-key=\"section04.job02.body01\"]",
+      "value": "ホテルやマンションのリニューアル工事、"
+    },
+    {
+      "key": "section04.job02.body02",
+      "selector": "[data-content-key=\"section04.job02.body02\"]",
+      "value": "給排水設備の不具合対応などを担当。"
+    },
+    {
+      "key": "section04.job02.body03",
+      "selector": "[data-content-key=\"section04.job02.body03\"]",
+      "value": "老朽化した配管のトラブル解決には"
+    },
+    {
+      "key": "section04.job02.body04",
+      "selector": "[data-content-key=\"section04.job02.body04\"]",
+      "value": "経験と技術力が求められますが、"
+    },
+    {
+      "key": "section04.job02.body05",
+      "selector": "[data-content-key=\"section04.job02.body05\"]",
+      "value": "ベテラン社員が多く、社内での"
+    },
+    {
+      "key": "section04.job02.body06",
+      "selector": "[data-content-key=\"section04.job02.body06\"]",
+      "value": "技術共有も活発に行われています。"
+    },
+    {
+      "key": "section04.job03.title",
+      "selector": "[data-content-key=\"section04.job03.title\"]",
+      "value": "工事部｜積算"
+    },
+    {
+      "key": "section04.job03.body01",
+      "selector": "[data-content-key=\"section04.job03.body01\"]",
+      "value": "新築・リニューアル工事の着工前に、"
+    },
+    {
+      "key": "section04.job03.body02",
+      "selector": "[data-content-key=\"section04.job03.body02\"]",
+      "value": "必要な材料や工事にかかる費用を"
+    },
+    {
+      "key": "section04.job03.body03",
+      "selector": "[data-content-key=\"section04.job03.body03\"]",
+      "value": "算出する仕事です。"
+    },
+    {
+      "key": "section04.job03.body04",
+      "selector": "[data-content-key=\"section04.job03.body04\"]",
+      "value": "図面をもとに数量を拾い出し、"
+    },
+    {
+      "key": "section04.job03.body05",
+      "selector": "[data-content-key=\"section04.job03.body05\"]",
+      "value": "コストを見積もることで、"
+    },
+    {
+      "key": "section04.job03.body06",
+      "selector": "[data-content-key=\"section04.job03.body06\"]",
+      "value": "工事全体がスムーズに進むよう支えます。"
+    },
+    {
+      "key": "section04.job04.title",
+      "selector": "[data-content-key=\"section04.job04.title\"]",
+      "value": "工事部｜申請業務"
+    },
+    {
+      "key": "section04.job04.body01",
+      "selector": "[data-content-key=\"section04.job04.body01\"]",
+      "value": "給排水にまつわる各種申請書類の"
+    },
+    {
+      "key": "section04.job04.body02",
+      "selector": "[data-content-key=\"section04.job04.body02\"]",
+      "value": "作成・提出・官公庁とのやりとりを担当。"
+    },
+    {
+      "key": "section04.job04.body03",
+      "selector": "[data-content-key=\"section04.job04.body03\"]",
+      "value": "現場が予定通り完成できるよう、"
+    },
+    {
+      "key": "section04.job04.body04",
+      "selector": "[data-content-key=\"section04.job04.body04\"]",
+      "value": "工事全体を裏側から支える"
+    },
+    {
+      "key": "section04.job04.body05",
+      "selector": "[data-content-key=\"section04.job04.body05\"]",
+      "value": "大切な役割です。"
+    },
+    {
+      "key": "section04.job05.title",
+      "selector": "[data-content-key=\"section04.job05.title\"]",
+      "value": "因幡電機産業（株） 沖縄積算センター"
+    },
+    {
+      "key": "section04.job05.body01",
+      "selector": "[data-content-key=\"section04.job05.body01\"]",
+      "value": "電気設備機器や空調機器などを扱う因幡電機産業株式会社からの積算業務を、"
+    },
+    {
+      "key": "section04.job05.body02",
+      "selector": "[data-content-key=\"section04.job05.body02\"]",
+      "value": "県内外のサブコン企業に代わって請け負う専門部署です。"
+    },
+    {
+      "key": "section04.job05.body03",
+      "selector": "[data-content-key=\"section04.job05.body03\"]",
+      "value": "2009年に開設し、業務の効率化と仲間の有効活用を実現しています。"
+    },
+    {
+      "key": "section05.label",
+      "selector": "[data-content-key=\"section05.label\"]",
+      "value": "SECTION 05｜1日の流れ"
+    },
+    {
+      "key": "section05.title",
+      "selector": "[data-content-key=\"section05.title\"]",
+      "value": "入社したら、どんな1日を過ごすの？"
+    },
+    {
+      "key": "section05.manager.heading",
+      "selector": "[data-content-key=\"section05.manager.heading\"]",
+      "value": "【施工管理・現場監督の場合】"
+    },
+    {
+      "key": "section05.manager.0800.title",
+      "selector": "[data-content-key=\"section05.manager.0800.title\"]",
+      "value": "現場朝礼・KY活動"
+    },
+    {
+      "key": "section05.manager.0800.body01",
+      "selector": "[data-content-key=\"section05.manager.0800.body01\"]",
+      "value": "ラジオ体操 → 一日の作業動線・安全チェック。"
+    },
+    {
+      "key": "section05.manager.0800.body02",
+      "selector": "[data-content-key=\"section05.manager.0800.body02\"]",
+      "value": "「今日も無事に終わろう」がスタートの合言葉。"
+    },
+    {
+      "key": "section05.manager.0830.title",
+      "selector": "[data-content-key=\"section05.manager.0830.title\"]",
+      "value": "現場施工管理"
+    },
+    {
+      "key": "section05.manager.0830.body01",
+      "selector": "[data-content-key=\"section05.manager.0830.body01\"]",
+      "value": "施工図の作成・修正、現場の進捗チェック、"
+    },
+    {
+      "key": "section05.manager.0830.body02",
+      "selector": "[data-content-key=\"section05.manager.0830.body02\"]",
+      "value": "配置や資材管理、写真撮影、"
+    },
+    {
+      "key": "section05.manager.0830.body03",
+      "selector": "[data-content-key=\"section05.manager.0830.body03\"]",
+      "value": "職人さんとのコミュニケーションが仕事の中心。"
+    },
+    {
+      "key": "section05.manager.1200.title",
+      "selector": "[data-content-key=\"section05.manager.1200.title\"]",
+      "value": "ランチタイム"
+    },
+    {
+      "key": "section05.manager.1200.body01",
+      "selector": "[data-content-key=\"section05.manager.1200.body01\"]",
+      "value": "仲間と食べると、これが意外と楽しい時間。"
+    },
+    {
+      "key": "section05.manager.1300.title",
+      "selector": "[data-content-key=\"section05.manager.1300.title\"]",
+      "value": "職長会議"
+    },
+    {
+      "key": "section05.manager.1300.body01",
+      "selector": "[data-content-key=\"section05.manager.1300.body01\"]",
+      "value": "午前の進捗報告 ＋ 翌日の段取り確認。"
+    },
+    {
+      "key": "section05.manager.1330.title",
+      "selector": "[data-content-key=\"section05.manager.1330.title\"]",
+      "value": "現場施工管理（午後の部）"
+    },
+    {
+      "key": "section05.manager.1700.title",
+      "selector": "[data-content-key=\"section05.manager.1700.title\"]",
+      "value": "業務終了・帰宅"
+    },
+    {
+      "key": "section05.manager.1700.body01",
+      "selector": "[data-content-key=\"section05.manager.1700.body01\"]",
+      "value": "上司に一日の報告をして、終了！"
+    },
+    {
+      "key": "section05.craftsman.heading",
+      "selector": "[data-content-key=\"section05.craftsman.heading\"]",
+      "value": "【配管工・職人の場合】"
+    },
+    {
+      "key": "section05.craftsman.0800.title",
+      "selector": "[data-content-key=\"section05.craftsman.0800.title\"]",
+      "value": "現場朝礼・KY活動"
+    },
+    {
+      "key": "section05.craftsman.0830.title",
+      "selector": "[data-content-key=\"section05.craftsman.0830.title\"]",
+      "value": "配管施工スタート"
+    },
+    {
+      "key": "section05.craftsman.0830.body01",
+      "selector": "[data-content-key=\"section05.craftsman.0830.body01\"]",
+      "value": "墨だし → 配管作業 → 水圧試験 → 勾配確認。"
+    },
+    {
+      "key": "section05.craftsman.1000.title",
+      "selector": "[data-content-key=\"section05.craftsman.1000.title\"]",
+      "value": "小休憩（15分）"
+    },
+    {
+      "key": "section05.craftsman.1000.body01",
+      "selector": "[data-content-key=\"section05.craftsman.1000.body01\"]",
+      "value": "熱中症対策でしっかり水分補給。大事。"
+    },
+    {
+      "key": "section05.craftsman.1200.title",
+      "selector": "[data-content-key=\"section05.craftsman.1200.title\"]",
+      "value": "ランチタイム"
+    },
+    {
+      "key": "section05.craftsman.1300.title",
+      "selector": "[data-content-key=\"section05.craftsman.1300.title\"]",
+      "value": "職長会議"
+    },
+    {
+      "key": "section05.craftsman.1330.title",
+      "selector": "[data-content-key=\"section05.craftsman.1330.title\"]",
+      "value": "配管施工（午後の部）"
+    },
+    {
+      "key": "section05.craftsman.1500.title",
+      "selector": "[data-content-key=\"section05.craftsman.1500.title\"]",
+      "value": "小休憩（15分）"
+    },
+    {
+      "key": "section05.craftsman.1730.title",
+      "selector": "[data-content-key=\"section05.craftsman.1730.title\"]",
+      "value": "作業終了・退社"
+    },
+    {
+      "key": "section05.craftsman.1730.body01",
+      "selector": "[data-content-key=\"section05.craftsman.1730.body01\"]",
+      "value": "清掃・整理整頓 → 上司に報告 → 帰宅！"
+    },
+    {
+      "key": "section06.label",
+      "selector": "[data-content-key=\"section06.label\"]",
+      "value": "SECTION 06"
+    },
+    {
+      "key": "section06.title.line01",
+      "selector": "[data-content-key=\"section06.title.line01\"]",
+      "value": "先輩たちの"
+    },
+    {
+      "key": "section06.title.line02",
+      "selector": "[data-content-key=\"section06.title.line02\"]",
+      "value": "リアルな声"
+    },
+    {
+      "key": "section06.note",
+      "selector": "[data-content-key=\"section06.note\"]",
+      "value": "実際に働く先輩たちの リアルな声を聞いてみました！"
+    },
+    {
+      "key": "section06.voice01.name",
+      "selector": "[data-content-key=\"section06.voice01.name\"]",
+      "value": "久場 一輝"
+    },
+    {
+      "key": "section06.voice01.catch",
+      "selector": "[data-content-key=\"section06.voice01.catch\"]",
+      "value": "「辞めようって考える ことさえない」"
+    },
+    {
+      "key": "section06.voice01.body01",
+      "selector": "[data-content-key=\"section06.voice01.body01\"]",
+      "value": "ネットで「沖縄 設備」と検索したらたまたまヒットして、気づいたら7年続いていました。"
+    },
+    {
+      "key": "section06.voice01.body02",
+      "selector": "[data-content-key=\"section06.voice01.body02\"]",
+      "value": "とにかく仕事を任せてもらえるし、権限が広い。実力に応じてちゃんと評価してくれる会社なので、自分で目標を立てて動く意義を感じます。"
+    },
+    {
+      "key": "section06.voice01.body03",
+      "selector": "[data-content-key=\"section06.voice01.body03\"]",
+      "value": "この会社で求められるのは、「小さな責任感」だけ。期日を守る、トラブルがあったらすぐ連絡する——それだけで、どんどんチャンスをもらえます。"
+    },
+    {
+      "key": "section06.voice02.name",
+      "selector": "[data-content-key=\"section06.voice02.name\"]",
+      "value": "與那嶺 賢人"
+    },
+    {
+      "key": "section06.voice02.catch",
+      "selector": "[data-content-key=\"section06.voice02.catch\"]",
+      "value": "「突っ走っても良い、 任せてくれる会社」"
+    },
+    {
+      "key": "section06.voice02.body01",
+      "selector": "[data-content-key=\"section06.voice02.body01\"]",
+      "value": "転職が続いていた自分が、「どうせなら職人の技術も1から理解した上で現場管理をやってみたい」と思って入社しました。"
+    },
+    {
+      "key": "section06.voice02.body02",
+      "selector": "[data-content-key=\"section06.voice02.body02\"]",
+      "value": "1から知りたい、やってみたい——そんな衝動を認めてくれる会社です。"
+    },
+    {
+      "key": "section06.voice02.body03",
+      "selector": "[data-content-key=\"section06.voice02.body03\"]",
+      "value": "視野が狭かった自分を、仕事が成長させてくれました。"
+    },
+    {
+      "key": "section07.label",
+      "selector": "[data-content-key=\"section07.label\"]",
+      "value": "SECTION 07"
+    },
+    {
+      "key": "section07.title",
+      "selector": "[data-content-key=\"section07.title\"]",
+      "value": "求人情報詳細"
+    },
+    {
+      "key": "section07.jobtype.title",
+      "selector": "[data-content-key=\"section07.jobtype.title\"]",
+      "value": "職種"
+    },
+    {
+      "key": "section07.jobtype.line01",
+      "selector": "[data-content-key=\"section07.jobtype.line01\"]",
+      "value": "施工管理・現場監督（見習い可）"
+    },
+    {
+      "key": "section07.jobtype.line02",
+      "selector": "[data-content-key=\"section07.jobtype.line02\"]",
+      "value": "配管工の職人（未経験・見習い可）"
+    },
+    {
+      "key": "section07.employment.title",
+      "selector": "[data-content-key=\"section07.employment.title\"]",
+      "value": "雇用形態"
+    },
+    {
+      "key": "section07.employment.line01",
+      "selector": "[data-content-key=\"section07.employment.line01\"]",
+      "value": "正社員"
+    },
+    {
+      "key": "section07.salary.title",
+      "selector": "[data-content-key=\"section07.salary.title\"]",
+      "value": "給与"
+    },
+    {
+      "key": "section07.salary.line01",
+      "selector": "[data-content-key=\"section07.salary.line01\"]",
+      "value": "正社員：月給200,000円〜"
+    },
+    {
+      "key": "section07.salary.line02",
+      "selector": "[data-content-key=\"section07.salary.line02\"]",
+      "value": "残業手当・資格手当"
+    },
+    {
+      "key": "section07.salary.note",
+      "selector": "[data-content-key=\"section07.salary.note\"]",
+      "value": "※スキル・経験により応相談"
+    },
+    {
+      "key": "section07.hours.title",
+      "selector": "[data-content-key=\"section07.hours.title\"]",
+      "value": "勤務時間"
+    },
+    {
+      "key": "section07.hours.line01",
+      "selector": "[data-content-key=\"section07.hours.line01\"]",
+      "value": "8:00〜17:30（実働8時間）"
+    },
+    {
+      "key": "section07.requirements.title",
+      "selector": "[data-content-key=\"section07.requirements.title\"]",
+      "value": "応募条件"
+    },
+    {
+      "key": "section07.requirements.required.heading",
+      "selector": "[data-content-key=\"section07.requirements.required.heading\"]",
+      "value": "＜必須条件＞"
+    },
+    {
+      "key": "section07.requirements.required.age",
+      "selector": "[data-content-key=\"section07.requirements.required.age\"]",
+      "value": "40歳以下 ※長期勤続によるキャリア形成のため、募集年齢を制限します。"
+    },
+    {
+      "key": "section07.requirements.required.license",
+      "selector": "[data-content-key=\"section07.requirements.required.license\"]",
+      "value": "普通自動車免許（AT限定可）"
+    },
+    {
+      "key": "section07.requirements.welcome.heading",
+      "selector": "[data-content-key=\"section07.requirements.welcome.heading\"]",
+      "value": "＜歓迎条件＞"
+    },
+    {
+      "key": "section07.requirements.welcome.01",
+      "selector": "[data-content-key=\"section07.requirements.welcome.01\"]",
+      "value": "未経験者歓迎"
+    },
+    {
+      "key": "section07.requirements.welcome.02",
+      "selector": "[data-content-key=\"section07.requirements.welcome.02\"]",
+      "value": "新卒・第二新卒OK"
+    },
+    {
+      "key": "section07.requirements.welcome.03",
+      "selector": "[data-content-key=\"section07.requirements.welcome.03\"]",
+      "value": "ブランクのある方も歓迎"
+    },
+    {
+      "key": "section07.requirements.welcome.04",
+      "selector": "[data-content-key=\"section07.requirements.welcome.04\"]",
+      "value": "ハローワークでお仕事をお探し中の方も歓迎"
+    },
+    {
+      "key": "section07.requirements.welcome.05",
+      "selector": "[data-content-key=\"section07.requirements.welcome.05\"]",
+      "value": "学歴不問！ 中卒・高卒OK"
+    },
+    {
+      "key": "section07.requirements.welcome.06",
+      "selector": "[data-content-key=\"section07.requirements.welcome.06\"]",
+      "value": "資格不問（配管技能士をお持ちの方優遇）"
+    },
+    {
+      "key": "section07.requirements.welcome.07",
+      "selector": "[data-content-key=\"section07.requirements.welcome.07\"]",
+      "value": "フリーター歓迎"
+    },
+    {
+      "key": "section07.requirements.welcome.08",
+      "selector": "[data-content-key=\"section07.requirements.welcome.08\"]",
+      "value": "IターンUターンの方歓迎"
+    },
+    {
+      "key": "section07.holidays.title",
+      "selector": "[data-content-key=\"section07.holidays.title\"]",
+      "value": "休日休暇"
+    },
+    {
+      "key": "section07.holidays.01",
+      "selector": "[data-content-key=\"section07.holidays.01\"]",
+      "value": "土、日、祝 ・週休2日制"
+    },
+    {
+      "key": "section07.holidays.02",
+      "selector": "[data-content-key=\"section07.holidays.02\"]",
+      "value": "年末年始休暇・GW休暇"
+    },
+    {
+      "key": "section07.holidays.03",
+      "selector": "[data-content-key=\"section07.holidays.03\"]",
+      "value": "旧盆休暇（ウークイ）・有給休暇"
+    },
+    {
+      "key": "section07.holidays.note",
+      "selector": "[data-content-key=\"section07.holidays.note\"]",
+      "value": "※現場の状況により、土日祝出勤になる場合もあります"
+    },
+    {
+      "key": "section07.location.title",
+      "selector": "[data-content-key=\"section07.location.title\"]",
+      "value": "勤務地"
+    },
+    {
+      "key": "section07.location.line01",
+      "selector": "[data-content-key=\"section07.location.line01\"]",
+      "value": "沖縄県沖縄市泡瀬1-10-21「工事部」"
+    },
+    {
+      "key": "section07.location.note",
+      "selector": "[data-content-key=\"section07.location.note\"]",
+      "value": "※マイカー通勤、バイク通勤可能！無料駐車場あり"
+    },
+    {
+      "key": "section07.benefits.title",
+      "selector": "[data-content-key=\"section07.benefits.title\"]",
+      "value": "待遇・福利厚生"
+    },
+    {
+      "key": "section07.benefits.01",
+      "selector": "[data-content-key=\"section07.benefits.01\"]",
+      "value": "社会保険完備 ・昇給年1回 ・賞与年2回"
+    },
+    {
+      "key": "section07.benefits.02",
+      "selector": "[data-content-key=\"section07.benefits.02\"]",
+      "value": "健康診断 ・制服貸与 ・社内禁煙（分煙スペースあり）"
+    },
+    {
+      "key": "section07.benefits.03",
+      "selector": "[data-content-key=\"section07.benefits.03\"]",
+      "value": "産前産後休暇 ・育休休暇 ・退職金共済"
+    },
+    {
+      "key": "section07.benefits.04",
+      "selector": "[data-content-key=\"section07.benefits.04\"]",
+      "value": "資格取得支援制度 ・リロクラブ加入有"
+    },
+    {
+      "key": "section07.benefits.05",
+      "selector": "[data-content-key=\"section07.benefits.05\"]",
+      "value": "生命保険加入 ・相談窓口の設置（ワークバランスの相談・カラーメンタリング）・ストレスチェック"
+    },
+    {
+      "key": "section07.benefits.06",
+      "selector": "[data-content-key=\"section07.benefits.06\"]",
+      "value": "人事評価制度導入"
+    },
+    {
+      "key": "section08.label",
+      "selector": "[data-content-key=\"section08.label\"]",
+      "value": "SECTION 08"
+    },
+    {
+      "key": "section08.title",
+      "selector": "[data-content-key=\"section08.title\"]",
+      "value": "会社の歩み"
+    },
+    {
+      "key": "section08.lead",
+      "selector": "[data-content-key=\"section08.lead\"]",
+      "value": "34年間、 ずっと沖縄と一緒に。"
+    },
+    {
+      "key": "section08.history.heading",
+      "selector": "[data-content-key=\"section08.history.heading\"]",
+      "value": "沿革"
+    },
+    {
+      "key": "section08.history.1992",
+      "selector": "[data-content-key=\"section08.history.1992\"]",
+      "value": "沖縄市美里に有限会社 設備技研を設立"
+    },
+    {
+      "key": "section08.history.1997",
+      "selector": "[data-content-key=\"section08.history.1997\"]",
+      "value": "本社を同じ沖縄市美里内に移転"
+    },
+    {
+      "key": "section08.history.2000",
+      "selector": "[data-content-key=\"section08.history.2000\"]",
+      "value": "有限会社から株式会社へ移行"
+    },
+    {
+      "key": "section08.history.2003",
+      "selector": "[data-content-key=\"section08.history.2003\"]",
+      "value": "積算センターを開設"
+    },
+    {
+      "key": "section08.history.2007",
+      "selector": "[data-content-key=\"section08.history.2007\"]",
+      "value": "本社を沖縄市泡瀬に移転"
+    },
+    {
+      "key": "section08.history.2009",
+      "selector": "[data-content-key=\"section08.history.2009\"]",
+      "value": "因幡電機産業（株）沖縄積算センターを開設"
+    },
+    {
+      "key": "section08.history.2026",
+      "selector": "[data-content-key=\"section08.history.2026\"]",
+      "value": "新社屋落成 → 本社機能を移転"
+    },
+    {
+      "key": "section09.label",
+      "selector": "[data-content-key=\"section09.label\"]",
+      "value": "SECTION 09"
+    },
+    {
+      "key": "section09.title",
+      "selector": "[data-content-key=\"section09.title\"]",
+      "value": "代表・専務メッセージ"
+    },
+    {
+      "key": "section09.left.role",
+      "selector": "[data-content-key=\"section09.left.role\"]",
+      "value": "代表取締役 平良 智より"
+    },
+    {
+      "key": "section09.left.heading",
+      "selector": "[data-content-key=\"section09.left.heading\"]",
+      "value": "設備技研は、 常にチャレンジする 企業であり続けます。"
+    },
+    {
+      "key": "section09.left.body01",
+      "selector": "[data-content-key=\"section09.left.body01\"]",
+      "value": "創業以来34年、お客様・社員・関係者の皆さまに"
+    },
+    {
+      "key": "section09.left.body02",
+      "selector": "[data-content-key=\"section09.left.body02\"]",
+      "value": "支えていただきながらここまで成長してきました。"
+    },
+    {
+      "key": "section09.left.body03",
+      "selector": "[data-content-key=\"section09.left.body03\"]",
+      "value": "特に、可能性を秘めた若い人材の育成に力を入れています。"
+    },
+    {
+      "key": "section09.left.body04",
+      "selector": "[data-content-key=\"section09.left.body04\"]",
+      "value": "お客様が満足し、安心して生活できる地域に貢献する——"
+    },
+    {
+      "key": "section09.left.body05",
+      "selector": "[data-content-key=\"section09.left.body05\"]",
+      "value": "そのために、一緒に技術を磨いていただける方を"
+    },
+    {
+      "key": "section09.left.body06",
+      "selector": "[data-content-key=\"section09.left.body06\"]",
+      "value": "求めています。"
+    },
+    {
+      "key": "section09.right.role",
+      "selector": "[data-content-key=\"section09.right.role\"]",
+      "value": "専務取締役 平良 淳より"
+    },
+    {
+      "key": "section09.right.heading",
+      "selector": "[data-content-key=\"section09.right.heading\"]",
+      "value": "社員が幸せでない会社が、 周りの人を幸せにすることは できない。"
+    },
+    {
+      "key": "section09.right.body01",
+      "selector": "[data-content-key=\"section09.right.body01\"]",
+      "value": "これまでの建設業の「当たり前」を、"
+    },
+    {
+      "key": "section09.right.body02",
+      "selector": "[data-content-key=\"section09.right.body02\"]",
+      "value": "私たちは変えようとしています。"
+    },
+    {
+      "key": "section09.right.body03",
+      "selector": "[data-content-key=\"section09.right.body03\"]",
+      "value": "言いたいことが言えて、健やかに働ける"
+    },
+    {
+      "key": "section09.right.body04",
+      "selector": "[data-content-key=\"section09.right.body04\"]",
+      "value": "職場をつくる。まだ道半ばですが、"
+    },
+    {
+      "key": "section09.right.body05",
+      "selector": "[data-content-key=\"section09.right.body05\"]",
+      "value": "社員と一緒に改善を重ねています。"
+    },
+    {
+      "key": "section09.right.body06",
+      "selector": "[data-content-key=\"section09.right.body06\"]",
+      "value": "あなたの力を、ここで発揮してほしい。"
+    },
+    {
+      "key": "section09.closing",
+      "selector": "[data-content-key=\"section09.closing\"]",
+      "value": "一緒に、未来をつくっていきましょう。"
+    },
+    {
+      "key": "section10.label",
+      "selector": "[data-content-key=\"section10.label\"]",
+      "value": "SECTION 10"
+    },
+    {
+      "key": "section10.eyebrow",
+      "selector": "[data-content-key=\"section10.eyebrow\"]",
+      "value": "こんな先輩が働いています"
+    },
+    {
+      "key": "section10.title",
+      "selector": "[data-content-key=\"section10.title\"]",
+      "value": "こんなバックグラウンドの 先輩が働いています"
+    },
+    {
+      "key": "section10.card01.title",
+      "selector": "[data-content-key=\"section10.card01.title\"]",
+      "value": "高校出身"
+    },
+    {
+      "key": "section10.card01.item01",
+      "selector": "[data-content-key=\"section10.card01.item01\"]",
+      "value": "美里工業高校"
+    },
+    {
+      "key": "section10.card01.item02",
+      "selector": "[data-content-key=\"section10.card01.item02\"]",
+      "value": "美来工科高校"
+    },
+    {
+      "key": "section10.card01.item03",
+      "selector": "[data-content-key=\"section10.card01.item03\"]",
+      "value": "南部工業高校"
+    },
+    {
+      "key": "section10.card01.item04",
+      "selector": "[data-content-key=\"section10.card01.item04\"]",
+      "value": "具志川商業高校"
+    },
+    {
+      "key": "section10.card01.item05",
+      "selector": "[data-content-key=\"section10.card01.item05\"]",
+      "value": "前原高校"
+    },
+    {
+      "key": "section10.card01.item06",
+      "selector": "[data-content-key=\"section10.card01.item06\"]",
+      "value": "宜野湾高校"
+    },
+    {
+      "key": "section10.card02.title",
+      "selector": "[data-content-key=\"section10.card02.title\"]",
+      "value": "大学・短大・ 専門学校出身"
+    },
+    {
+      "key": "section10.card02.item01",
+      "selector": "[data-content-key=\"section10.card02.item01\"]",
+      "value": "沖縄国際大学"
+    },
+    {
+      "key": "section10.card02.item02",
+      "selector": "[data-content-key=\"section10.card02.item02\"]",
+      "value": "キリスト大学"
+    },
+    {
+      "key": "section10.card03.title",
+      "selector": "[data-content-key=\"section10.card03.title\"]",
+      "value": "他業種からの転職"
+    },
+    {
+      "key": "section10.card03.item01",
+      "selector": "[data-content-key=\"section10.card03.item01\"]",
+      "value": "営業・建築管理 など"
+    },
+    {
+      "key": "section10.summary",
+      "selector": "[data-content-key=\"section10.summary\"]",
+      "value": "学歴・経歴より、 「やってみたい」という気持ちを大切にします。"
+    },
+    {
+      "key": "section10.script",
+      "selector": "[data-content-key=\"section10.script\"]",
+      "value": "一緒に、 未来をつくっていきましょう。"
+    },
+    {
+      "key": "section11.label",
+      "selector": "[data-content-key=\"section11.label\"]",
+      "value": "SECTION 11"
+    },
+    {
+      "key": "section11.sub",
+      "selector": "[data-content-key=\"section11.sub\"]",
+      "value": "FAQ ／ 設備技研のホンネ"
+    },
+    {
+      "key": "section11.title.line01",
+      "selector": "[data-content-key=\"section11.title.line01\"]",
+      "value": "正直に言います。"
+    },
+    {
+      "key": "section11.title.line02",
+      "selector": "[data-content-key=\"section11.title.line02\"]",
+      "value": "これが設備技研のホンネです。"
+    },
+    {
+      "key": "section11.lead",
+      "selector": "[data-content-key=\"section11.lead\"]",
+      "value": "働く前に気になること、ぜんぶお答えします。"
+    },
+    {
+      "key": "section11.point01.title",
+      "selector": "[data-content-key=\"section11.point01.title\"]",
+      "value": "4連休、 普通に取れます"
+    },
+    {
+      "key": "section11.point01.body01",
+      "selector": "[data-content-key=\"section11.point01.body01\"]",
+      "value": "週休2日制＋有休の組み合わせで"
+    },
+    {
+      "key": "section11.point01.body02",
+      "selector": "[data-content-key=\"section11.point01.body02\"]",
+      "value": "4連休も作れる環境。"
+    },
+    {
+      "key": "section11.point01.body03",
+      "selector": "[data-content-key=\"section11.point01.body03\"]",
+      "value": "プライベートがスカスカなのに、"
+    },
+    {
+      "key": "section11.point01.body04",
+      "selector": "[data-content-key=\"section11.point01.body04\"]",
+      "value": "仕事だけ全力なんて無理な話。"
+    },
+    {
+      "key": "section11.point01.body05",
+      "selector": "[data-content-key=\"section11.point01.body05\"]",
+      "value": "メリハリつけて働くのが、"
+    },
+    {
+      "key": "section11.point01.body06",
+      "selector": "[data-content-key=\"section11.point01.body06\"]",
+      "value": "設備技研のスタイルです。"
+    },
+    {
+      "key": "section11.point02.title",
+      "selector": "[data-content-key=\"section11.point02.title\"]",
+      "value": "経験ゼロOK、 面接は1回だけ"
+    },
+    {
+      "key": "section11.point02.body01",
+      "selector": "[data-content-key=\"section11.point02.body01\"]",
+      "value": "今のスキルや経験は、"
+    },
+    {
+      "key": "section11.point02.body02",
+      "selector": "[data-content-key=\"section11.point02.body02\"]",
+      "value": "正直気にしていません。"
+    },
+    {
+      "key": "section11.point02.body03",
+      "selector": "[data-content-key=\"section11.point02.body03\"]",
+      "value": "入ってからチームでノウハウを"
+    },
+    {
+      "key": "section11.point02.body04",
+      "selector": "[data-content-key=\"section11.point02.body04\"]",
+      "value": "共有していくスタイルなので、"
+    },
+    {
+      "key": "section11.point02.body05",
+      "selector": "[data-content-key=\"section11.point02.body05\"]",
+      "value": "研修を重ねるうちに、気づけば"
+    },
+    {
+      "key": "section11.point02.body06",
+      "selector": "[data-content-key=\"section11.point02.body06\"]",
+      "value": "戦力になっています。"
+    },
+    {
+      "key": "section11.point02.body07",
+      "selector": "[data-content-key=\"section11.point02.body07\"]",
+      "value": "工具の名前ひとつ知らない状態で"
+    },
+    {
+      "key": "section11.point02.body08",
+      "selector": "[data-content-key=\"section11.point02.body08\"]",
+      "value": "入った先輩も、今は現場のリーダーです。"
+    },
+    {
+      "key": "section11.point03.title",
+      "selector": "[data-content-key=\"section11.point03.title\"]",
+      "value": "月収20万円〜、 普通に狙えます"
+    },
+    {
+      "key": "section11.point03.body01",
+      "selector": "[data-content-key=\"section11.point03.body01\"]",
+      "value": "フリーターから抜け出したい人も、"
+    },
+    {
+      "key": "section11.point03.body02",
+      "selector": "[data-content-key=\"section11.point03.body02\"]",
+      "value": "全然違う業界から来た人も。"
+    },
+    {
+      "key": "section11.point03.body03",
+      "selector": "[data-content-key=\"section11.point03.body03\"]",
+      "value": "やる気さえあれば月給20万円"
+    },
+    {
+      "key": "section11.point03.body04",
+      "selector": "[data-content-key=\"section11.point03.body04\"]",
+      "value": "スタートでお迎えします。"
+    },
+    {
+      "key": "section11.point03.body05",
+      "selector": "[data-content-key=\"section11.point03.body05\"]",
+      "value": "勉強して資格を取れば、"
+    },
+    {
+      "key": "section11.point03.body06",
+      "selector": "[data-content-key=\"section11.point03.body06\"]",
+      "value": "給料も上がります。"
+    },
+    {
+      "key": "section11.point03.body07",
+      "selector": "[data-content-key=\"section11.point03.body07\"]",
+      "value": "やった分が返ってくる会社です。"
+    },
+    {
+      "key": "section11.point04.title",
+      "selector": "[data-content-key=\"section11.point04.title\"]",
+      "value": "言いたいことが 言える空気"
+    },
+    {
+      "key": "section11.point04.body01",
+      "selector": "[data-content-key=\"section11.point04.body01\"]",
+      "value": "「上司に意見が言えない」"
+    },
+    {
+      "key": "section11.point04.body02",
+      "selector": "[data-content-key=\"section11.point04.body02\"]",
+      "value": "「見て盗め」「残業して当たり前」——"
+    },
+    {
+      "key": "section11.point04.body03",
+      "selector": "[data-content-key=\"section11.point04.body03\"]",
+      "value": "かつての建設業界は正直そういう"
+    },
+    {
+      "key": "section11.point04.body04",
+      "selector": "[data-content-key=\"section11.point04.body04\"]",
+      "value": "空気がありました。"
+    },
+    {
+      "key": "section11.point04.body05",
+      "selector": "[data-content-key=\"section11.point04.body05\"]",
+      "value": "でも、それじゃ人はついてこない。"
+    },
+    {
+      "key": "section11.point04.body06",
+      "selector": "[data-content-key=\"section11.point04.body06\"]",
+      "value": "設備技研は変わることにしました。"
+    },
+    {
+      "key": "section11.point04.body07",
+      "selector": "[data-content-key=\"section11.point04.body07\"]",
+      "value": "何かあれば言える。相談できる。"
+    },
+    {
+      "key": "section11.point04.body08",
+      "selector": "[data-content-key=\"section11.point04.body08\"]",
+      "value": "そういう職場をつくっています。"
+    },
+    {
+      "key": "section11.faq.heading",
+      "selector": "[data-content-key=\"section11.faq.heading\"]",
+      "value": "よくある質問"
+    },
+    {
+      "key": "section11.faq.note",
+      "selector": "[data-content-key=\"section11.faq.note\"]",
+      "value": "ほかにも気になることがあれば、お気軽にお問い合わせください。"
+    },
+    {
+      "key": "section11.faq01.q",
+      "selector": "[data-content-key=\"section11.faq01.q\"]",
+      "value": "残業は多いですか？"
+    },
+    {
+      "key": "section11.faq01.a",
+      "selector": "[data-content-key=\"section11.faq01.a\"]",
+      "value": "現場や時期によりますが、 休日・有給取得の環境整備に 取り組んでいます。 4連休の取得実績もあります。"
+    },
+    {
+      "key": "section11.faq02.q",
+      "selector": "[data-content-key=\"section11.faq02.q\"]",
+      "value": "資格は必要ですか？"
+    },
+    {
+      "key": "section11.faq02.a",
+      "selector": "[data-content-key=\"section11.faq02.a\"]",
+      "value": "入社時点では不要です。 働きながら資格取得を サポートします。 資格が増えると給与にも 反映されます。"
+    },
+    {
+      "key": "section11.faq03.q",
+      "selector": "[data-content-key=\"section11.faq03.q\"]",
+      "value": "女性でも働けますか？"
+    },
+    {
+      "key": "section11.faq03.a",
+      "selector": "[data-content-key=\"section11.faq03.a\"]",
+      "value": "総務・積算部門を中心に、 女性スタッフも活躍しています。"
+    },
+    {
+      "key": "section12.label",
+      "selector": "[data-content-key=\"section12.label\"]",
+      "value": "SECTION 12"
+    },
+    {
+      "key": "section12.sub",
+      "selector": "[data-content-key=\"section12.sub\"]",
+      "value": "エントリー（採用情報）"
+    },
+    {
+      "key": "section12.title",
+      "selector": "[data-content-key=\"section12.title\"]",
+      "value": "まずは、 話を聞いてみる だけでいい。"
+    },
+    {
+      "key": "section12.body01",
+      "selector": "[data-content-key=\"section12.body01\"]",
+      "value": "「どんな仕事か知りたい」"
+    },
+    {
+      "key": "section12.body02",
+      "selector": "[data-content-key=\"section12.body02\"]",
+      "value": "「自分でも採用されるか不安」"
+    },
+    {
+      "key": "section12.body03",
+      "selector": "[data-content-key=\"section12.body03\"]",
+      "value": "「とりあえず話だけ聞いてみたい」"
+    },
+    {
+      "key": "section12.body04",
+      "selector": "[data-content-key=\"section12.body04\"]",
+      "value": "どんな理由でもOKです。"
+    },
+    {
+      "key": "section12.body05",
+      "selector": "[data-content-key=\"section12.body05\"]",
+      "value": "気軽に連絡してください。"
+    },
+    {
+      "key": "section12.form.title",
+      "selector": "[data-content-key=\"section12.form.title\"]",
+      "value": "簡単エントリーフォーム"
+    },
+    {
+      "key": "section12.form.lead",
+      "selector": "[data-content-key=\"section12.form.lead\"]",
+      "value": "まずはお気軽にご応募・お問い合わせください。 担当者より、折り返しご連絡いたします。"
+    },
+    {
+      "key": "section12.form.badge",
+      "selector": "[data-content-key=\"section12.form.badge\"]",
+      "value": "希望職種を 選んで送るだけ！ （約1分）"
+    },
+    {
+      "key": "section12.form.submit",
+      "selector": "[data-content-key=\"section12.form.submit\"]",
+      "value": "この内容で送信する"
+    },
+    {
+      "key": "footer.message",
+      "selector": "[data-content-key=\"footer.message\"]",
+      "value": "アナタの力を 待っています。"
+    }
+  ]
+}

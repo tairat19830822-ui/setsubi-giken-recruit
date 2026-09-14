@@ -1,0 +1,846 @@
+{
+  "section": "01-12",
+  "status": "static_assets_integrated",
+  "external_dependencies": false,
+  "photos": [
+    {
+      "path": "assets/footer/photos/okinawa.webp",
+      "width": 1500,
+      "height": 700,
+      "mode": "RGB"
+    },
+    {
+      "path": "assets/section-01/photos/office-staff-extended.webp",
+      "width": 736,
+      "height": 450,
+      "mode": "RGB"
+    },
+    {
+      "path": "assets/section-01/photos/technician-extended.webp",
+      "width": 782,
+      "height": 450,
+      "mode": "RGB"
+    },
+    {
+      "path": "assets/section-02/photos/active-seniors-extended.webp",
+      "width": 1774,
+      "height": 887,
+      "mode": "RGB"
+    },
+    {
+      "path": "assets/section-03/photos/hero-female.webp",
+      "width": 1122,
+      "height": 1402,
+      "mode": "RGB"
+    },
+    {
+      "path": "assets/section-03/photos/hero-male.webp",
+      "width": 1122,
+      "height": 1402,
+      "mode": "RGB"
+    },
+    {
+      "path": "assets/section-03/photos/reason-01.webp",
+      "width": 1448,
+      "height": 1086,
+      "mode": "RGB"
+    },
+    {
+      "path": "assets/section-03/photos/reason-02.webp",
+      "width": 1448,
+      "height": 1086,
+      "mode": "RGB"
+    },
+    {
+      "path": "assets/section-03/photos/reason-03.webp",
+      "width": 1448,
+      "height": 1086,
+      "mode": "RGB"
+    },
+    {
+      "path": "assets/section-03/photos/reason-04.webp",
+      "width": 1448,
+      "height": 1086,
+      "mode": "RGB"
+    },
+    {
+      "path": "assets/section-03/photos/reason-05.webp",
+      "width": 1448,
+      "height": 1086,
+      "mode": "RGB"
+    },
+    {
+      "path": "assets/section-04/photos/application.webp",
+      "width": 1000,
+      "height": 1200,
+      "mode": "RGB"
+    },
+    {
+      "path": "assets/section-04/photos/estimation-center.webp",
+      "width": 1200,
+      "height": 800,
+      "mode": "RGB"
+    },
+    {
+      "path": "assets/section-04/photos/estimation.webp",
+      "width": 1000,
+      "height": 1200,
+      "mode": "RGB"
+    },
+    {
+      "path": "assets/section-04/photos/maintenance.webp",
+      "width": 1000,
+      "height": 1200,
+      "mode": "RGB"
+    },
+    {
+      "path": "assets/section-04/photos/work-manager.webp",
+      "width": 1000,
+      "height": 1200,
+      "mode": "RGB"
+    },
+    {
+      "path": "assets/section-05/photos/craftsman-0800.webp",
+      "width": 900,
+      "height": 600,
+      "mode": "RGB"
+    },
+    {
+      "path": "assets/section-05/photos/craftsman-0830.webp",
+      "width": 900,
+      "height": 600,
+      "mode": "RGB"
+    },
+    {
+      "path": "assets/section-05/photos/craftsman-1000.webp",
+      "width": 900,
+      "height": 600,
+      "mode": "RGB"
+    },
+    {
+      "path": "assets/section-05/photos/craftsman-1200.webp",
+      "width": 900,
+      "height": 600,
+      "mode": "RGB"
+    },
+    {
+      "path": "assets/section-05/photos/craftsman-1300.webp",
+      "width": 900,
+      "height": 600,
+      "mode": "RGB"
+    },
+    {
+      "path": "assets/section-05/photos/craftsman-1330.webp",
+      "width": 900,
+      "height": 600,
+      "mode": "RGB"
+    },
+    {
+      "path": "assets/section-05/photos/craftsman-1500.webp",
+      "width": 900,
+      "height": 600,
+      "mode": "RGB"
+    },
+    {
+      "path": "assets/section-05/photos/craftsman-1730.webp",
+      "width": 900,
+      "height": 600,
+      "mode": "RGB"
+    },
+    {
+      "path": "assets/section-05/photos/manager-0800.webp",
+      "width": 900,
+      "height": 600,
+      "mode": "RGB"
+    },
+    {
+      "path": "assets/section-05/photos/manager-0830.webp",
+      "width": 900,
+      "height": 600,
+      "mode": "RGB"
+    },
+    {
+      "path": "assets/section-05/photos/manager-1200.webp",
+      "width": 900,
+      "height": 600,
+      "mode": "RGB"
+    },
+    {
+      "path": "assets/section-05/photos/manager-1300.webp",
+      "width": 900,
+      "height": 600,
+      "mode": "RGB"
+    },
+    {
+      "path": "assets/section-05/photos/manager-1330.webp",
+      "width": 900,
+      "height": 600,
+      "mode": "RGB"
+    },
+    {
+      "path": "assets/section-05/photos/manager-1700.webp",
+      "width": 900,
+      "height": 600,
+      "mode": "RGB"
+    },
+    {
+      "path": "assets/section-06/photos/hero-female.webp",
+      "width": 1000,
+      "height": 1200,
+      "mode": "RGB"
+    },
+    {
+      "path": "assets/section-06/photos/hero-male.webp",
+      "width": 1000,
+      "height": 1200,
+      "mode": "RGB"
+    },
+    {
+      "path": "assets/section-06/photos/kuba-kazuki.webp",
+      "width": 1000,
+      "height": 1200,
+      "mode": "RGB"
+    },
+    {
+      "path": "assets/section-06/photos/member-03.webp",
+      "width": 1000,
+      "height": 1200,
+      "mode": "RGB"
+    },
+    {
+      "path": "assets/section-06/photos/member-04.webp",
+      "width": 1000,
+      "height": 1200,
+      "mode": "RGB"
+    },
+    {
+      "path": "assets/section-06/photos/member-05.webp",
+      "width": 1000,
+      "height": 1200,
+      "mode": "RGB"
+    },
+    {
+      "path": "assets/section-06/photos/member-06.webp",
+      "width": 1000,
+      "height": 1200,
+      "mode": "RGB"
+    },
+    {
+      "path": "assets/section-06/photos/yonamine-kento.webp",
+      "width": 1000,
+      "height": 1200,
+      "mode": "RGB"
+    },
+    {
+      "path": "assets/section-08/photos/company-building-extended.webp",
+      "width": 1600,
+      "height": 1000,
+      "mode": "RGB"
+    },
+    {
+      "path": "assets/section-09/photos/executive-message.webp",
+      "width": 900,
+      "height": 1100,
+      "mode": "RGB"
+    },
+    {
+      "path": "assets/section-09/photos/president-message.webp",
+      "width": 900,
+      "height": 1200,
+      "mode": "RGB"
+    },
+    {
+      "path": "assets/section-10/photos/career-change.webp",
+      "width": 1100,
+      "height": 620,
+      "mode": "RGB"
+    },
+    {
+      "path": "assets/section-10/photos/college.webp",
+      "width": 1100,
+      "height": 620,
+      "mode": "RGB"
+    },
+    {
+      "path": "assets/section-10/photos/highschool.webp",
+      "width": 1100,
+      "height": 620,
+      "mode": "RGB"
+    },
+    {
+      "path": "assets/section-10/photos/team-hero.webp",
+      "width": 1400,
+      "height": 780,
+      "mode": "RGB"
+    },
+    {
+      "path": "assets/section-11/photos/hero-team.webp",
+      "width": 1400,
+      "height": 780,
+      "mode": "RGB"
+    },
+    {
+      "path": "assets/section-11/photos/point-beginner.webp",
+      "width": 1000,
+      "height": 700,
+      "mode": "RGB"
+    },
+    {
+      "path": "assets/section-11/photos/point-holiday.webp",
+      "width": 1000,
+      "height": 700,
+      "mode": "RGB"
+    },
+    {
+      "path": "assets/section-11/photos/point-salary.webp",
+      "width": 1000,
+      "height": 700,
+      "mode": "RGB"
+    },
+    {
+      "path": "assets/section-11/photos/point-talk.webp",
+      "width": 1000,
+      "height": 700,
+      "mode": "RGB"
+    },
+    {
+      "path": "assets/section-12/photos/entry-staff.webp",
+      "width": 1000,
+      "height": 1200,
+      "mode": "RGB"
+    }
+  ],
+  "icons": [
+    {
+      "path": "assets/footer/icons/company-mark.png",
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/icons/beginner.png",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/icons/interview.png",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/icons/salary-growth.png",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/section-02/icons/full-time.png",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/section-02/icons/no-experience.png",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/section-02/icons/no-steal-to-learn.png",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/section-02/icons/okinawa.png",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/section-02/icons/team.png",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/section-02/icons/want-more.png",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/section-03/icons/reason-01.png",
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/section-03/icons/reason-02.png",
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/section-03/icons/reason-03.png",
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/section-03/icons/reason-04.png",
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/section-03/icons/reason-05.png",
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/section-04/icons/application.png",
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/section-04/icons/construction-mgmt.png",
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/section-04/icons/estimation-center.png",
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/section-04/icons/estimation.png",
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/section-04/icons/maintenance.png",
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/section-06/icons/arrow-left.png",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/section-06/icons/arrow-right.png",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/section-07/icons/benefits.png",
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/section-07/icons/employment.png",
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/section-07/icons/holidays.png",
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/section-07/icons/job-type.png",
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/section-07/icons/location.png",
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/section-07/icons/requirements.png",
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/section-07/icons/salary.png",
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/section-07/icons/work-hours.png",
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/section-08/icons/history.png",
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/section-10/icons/career-change.png",
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/section-10/icons/college.png",
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/section-10/icons/highschool.png",
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/section-10/icons/summary-group.png",
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/section-11/icons/faq-overtime.png",
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/section-11/icons/faq-qualification.png",
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/section-11/icons/faq-women.png",
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/section-11/icons/point-beginner.png",
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/section-11/icons/point-holiday.png",
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/section-11/icons/point-salary.png",
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/section-11/icons/point-talk.png",
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/section-12/icons/form.png",
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/section-12/icons/location.png",
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/section-12/icons/mail.png",
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/section-12/icons/phone.png",
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    }
+  ],
+  "backgrounds": [
+    {
+      "path": "assets/section-01/backgrounds/accent-band.png",
+      "width": 2048,
+      "height": 240,
+      "mode": "RGB"
+    },
+    {
+      "path": "assets/section-01/backgrounds/blue-geometric-overlay.png",
+      "width": 2048,
+      "height": 1778,
+      "mode": "RGBA",
+      "alpha_range": [
+        214,
+        252
+      ]
+    },
+    {
+      "path": "assets/section-01/backgrounds/blue-geometric-shape.png",
+      "width": 2048,
+      "height": 1778,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        252
+      ]
+    },
+    {
+      "path": "assets/section-01/backgrounds/lead-ribbon.png",
+      "width": 960,
+      "height": 104,
+      "mode": "RGB"
+    },
+    {
+      "path": "assets/section-02/backgrounds/dot-pattern.png",
+      "width": 320,
+      "height": 320,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        100
+      ]
+    },
+    {
+      "path": "assets/section-02/backgrounds/section-02-soft-bg.webp",
+      "width": 1600,
+      "height": 1024,
+      "mode": "RGB"
+    }
+  ],
+  "masks": [
+    {
+      "path": "assets/section-01/masks/office-photo-mask.png",
+      "width": 1208,
+      "height": 1086,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ]
+    }
+  ],
+  "not_implemented": [
+    "Supabase",
+    "SQL",
+    "CMS",
+    "セクション自動追加",
+    "実送信バックエンド",
+    "GitHubへのアップロード／公開"
+  ],
+  "photo_note": "SECTION 11・12は提示デザインから写真を個別化し、教材用に周辺余白を補完。フォームはHTML/JSで構築し外部送信は未接続。"
+}

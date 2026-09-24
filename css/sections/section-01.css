@@ -170,8 +170,10 @@
 .intro__photo--office img     { animation: intro-slam .9s cubic-bezier(.2,.8,.25,1) .8s both; }
 /* 写真は、左の青い背景が来る場所から先には出ないように切り抜く（パソコン表示） */
 @media (min-width: 768px) {
-  .intro__photo--technician { clip-path: polygon(19% 0, 101% 0, 101% 101%, 20.3% 101%, 62.9% 48.4%); }
-  .intro__photo--office     { clip-path: polygon(-39% -51%, 110% -51%, 110% 113%, -36.8% 112.4%, 35.4% 28.1%); }
+  /* 男性：青い背景の上側の斜め線を、そのまま右下までのばした線で切る */
+  .intro__photo--technician { clip-path: polygon(19% 0, 101% 0, 101% 90.4%); }
+  /* 女性：青い背景の下側の斜め線（半透明の部分も含めた外側）で切る */
+  .intro__photo--office     { clip-path: polygon(-39% -51%, 110% -51%, 110% 113%, 0.2% 112.4%, 35.6% 28.1%); }
 }
 .intro__blue-shape        { animation: intro-slide-left .8s cubic-bezier(.2,.8,.25,1) 1.5s both; }
 .intro__accent-band       { animation: intro-slide-left .8s cubic-bezier(.2,.8,.25,1) 1.6s both; }

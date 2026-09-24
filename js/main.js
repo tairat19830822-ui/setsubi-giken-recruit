@@ -88,15 +88,60 @@ Supabase / CMS / 外部通信はまだ未実装です。
 })();
 
 
-/* SECTION 09｜締めの一文を、画面に入ったときにアニメーション表示 */
+/* SECTION 09｜締めの一文を、スクロールに合わせて表示
+   ・文字が画面に入ってからスクロールした分だけ、左から1文字ずつ現れます
+   ・各文字は画面の手前（大きく・ぼやけた状態）から飛んできて、ページに貼り付きます */
 (() => {
   const closing = document.querySelector('.message-section__closing');
-  if (!closing || !('IntersectionObserver' in window)) return;
-  closing.classList.add('is-animate');
-  const io = new IntersectionObserver((entries) => {
-    entries.forEach((e) => {
-      if (e.isIntersecting) { closing.classList.add('is-visible'); io.disconnect(); }
+  if (!closing) return;
+  if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+
+  let chars = [];
+  function split() {
+    // CMSで文言が変わった場合も作り直します
+    if (closing.querySelector('.fly-char')) return;
+    const text = closing.textContent;
+    closing.textContent = '';
+    chars = [...text].map((ch) => {
+      const span = document.createElement('span');
+      span.className = 'fly-char';
+      span.textContent = ch;
+      closing.appendChild(span);
+      return span;
     });
-  }, { rootMargin: '0px 0px -20% 0px' });
-  io.observe(closing.parentElement);
+    closing.setAttribute('aria-label', text);
+  }
+
+  const clamp = (v) => Math.min(1, Math.max(0, v));
+  const ease = (t) => 1 - Math.pow(1 - t, 3);
+
+  function update() {
+    split();
+    const rect = closing.getBoundingClientRect();
+    const vh = window.innerHeight;
+    // 文字の上端が画面の下端に来たら開始 → 文字が画面の上から45%の位置に来たら完成
+    const start = vh;
+    const end = vh * 0.45;
+    const p = clamp((start - rect.top) / (start - end));
+    const n = chars.length || 1;
+    chars.forEach((span, i) => {
+      // 1文字ごとに少しずつずらして登場（全体の85%の間に全文字が貼り付く）
+      const t = ease(clamp((p / 0.85 - (i / n) * 0.75) / 0.25));
+      span.style.opacity = t;
+      span.style.transform = `translateY(${(1 - t) * -18}px) scale(${1 + (1 - t) * 2.2})`;
+      span.style.filter = t >= 1 ? 'none' : `blur(${(1 - t) * 8}px)`;
+    });
+    closing.style.setProperty('--line', clamp((p - 0.85) / 0.15));
+  }
+
+  closing.classList.add('is-scroll-anim');
+  let ticking = false;
+  const onScroll = () => {
+    if (ticking) return;
+    ticking = true;
+    requestAnimationFrame(() => { update(); ticking = false; });
+  };
+  window.addEventListener('scroll', onScroll, { passive: true });
+  window.addEventListener('resize', onScroll, { passive: true });
+  update();
 })();

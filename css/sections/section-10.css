@@ -42,3 +42,10 @@
   .background-summary__left p{font-size:22px}
   .background-summary__script{font-size:24px;white-space:normal;text-align:left;align-self:auto}
 }
+
+/* 見出し「こんなバックグラウンドの／先輩が働いています」
+   「の」だけが1行になるのを防ぐため、文字サイズを調整し、行の途中で折り返さないようにする */
+.background-section__title{font-size:clamp(30px,3.3vw,50px);line-height:1.35;white-space:nowrap}
+@media(max-width:680px){
+  .background-section__title{white-space:normal;word-break:keep-all;overflow-wrap:anywhere;font-size:clamp(24px,7vw,36px)}
+}

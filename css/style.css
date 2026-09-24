@@ -19,3 +19,23 @@ img { display: block; max-width: 100%; height: auto; }
 figure, h1, h2, p { margin: 0; }
 .lp { width: 100%; max-width: var(--page-max-width); margin-inline: auto; container-type: inline-size; }
 ::selection { color: #fff; background: #0085c7; }
+
+/* ===== 矢印の帯（見出し）を、左から右へ矢印の向きに伸ばして表示するアニメーション =====
+   対象：SECTION 09「代表・専務メッセージ」／SECTION 10「こんな先輩が働いています」
+   仕組み：帯を左端から少しずつ見せていき（マスク）、中の文字も左から少し遅れてスッと入ってくる。
+   画面に帯が入ったときに1回だけ動きます（動かすタイミングは main.js）。 */
+.arrow-reveal {
+  -webkit-mask: linear-gradient(#000, #000) left / 0% 100% no-repeat;
+          mask: linear-gradient(#000, #000) left / 0% 100% no-repeat;
+  transition: -webkit-mask-size .9s cubic-bezier(.6,0,.2,1), mask-size .9s cubic-bezier(.6,0,.2,1);
+}
+.arrow-reveal .arrow-reveal__text {
+  display: inline-block; opacity: 0; transform: translateX(-24px);
+  transition: opacity .5s ease .45s, transform .6s cubic-bezier(.2,.8,.25,1) .45s;
+}
+.arrow-reveal.is-shown { -webkit-mask-size: 100% 100%; mask-size: 100% 100%; }
+.arrow-reveal.is-shown .arrow-reveal__text { opacity: 1; transform: none; }
+@media (prefers-reduced-motion: reduce) {
+  .arrow-reveal { -webkit-mask: none; mask: none; }
+  .arrow-reveal .arrow-reveal__text { opacity: 1; transform: none; }
+}

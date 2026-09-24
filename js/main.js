@@ -163,3 +163,36 @@ Supabase / CMS / 外部通信はまだ未実装です。
     shape.appendChild(b);
   }
 })();
+
+/* 矢印の帯（見出し）を左から右へ表示する（見た目は style.css の .arrow-reveal）
+   帯を増やしたいときは、下の一覧にクラス名を追加するだけでOKです。 */
+(() => {
+  const targets = document.querySelectorAll([
+    '.message-section__title',       // SECTION 09 代表・専務メッセージ
+    '.background-section__eyebrow',  // SECTION 10 こんな先輩が働いています
+  ].join(','));
+  if (!targets.length || !('IntersectionObserver' in window)) return;
+
+  const io = new IntersectionObserver((entries) => {
+    entries.forEach((e) => {
+      if (!e.isIntersecting) return;
+      e.target.classList.add('is-shown');
+      io.unobserve(e.target);
+    });
+  }, { rootMargin: '0px 0px -15% 0px' });
+
+  targets.forEach((el) => {
+    // 中の文字を包んで、文字だけ少し遅れて動かす（CMSで文字が変わっても大丈夫）
+    const wrap = () => {
+      if (el.querySelector('.arrow-reveal__text')) return;
+      const span = document.createElement('span');
+      span.className = 'arrow-reveal__text';
+      while (el.firstChild) span.appendChild(el.firstChild);
+      el.appendChild(span);
+    };
+    wrap();
+    new MutationObserver(wrap).observe(el, { childList: true });
+    el.classList.add('arrow-reveal');
+    io.observe(el);
+  });
+})();

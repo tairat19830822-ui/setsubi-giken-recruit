@@ -38,3 +38,7 @@
 .faq-card__illustration{position:absolute;right:12px;bottom:14px;width:58px;height:58px;object-fit:contain;opacity:.48}
 @media(max-width:980px){.honest-points{grid-template-columns:repeat(2,minmax(0,1fr))}.faq-list{grid-template-columns:1fr}.faq-honest__hero{grid-template-columns:1fr}.faq-honest__hero-photo{height:260px}.faq-honest__hero-script{top:auto;bottom:10px}}
 @media(max-width:600px){.honest-points{grid-template-columns:1fr}.faq-list__heading-row{display:block}.faq-list__heading::after{width:80px}.faq-honest__title{font-size:clamp(28px,9vw,42px)}.faq-honest__hero-photo{height:220px}}
+
+/* 「一緒に、いい仕事をつくっていこう。」写真に重なっても読めるよう、太く・白いフチ付きに */
+.faq-honest__hero-script{z-index:3;color:#0a3f86;font-weight:700;font-size:clamp(20px,2.2vw,32px);
+  -webkit-text-stroke:6px #fff;paint-order:stroke fill;text-shadow:0 3px 10px rgba(0,40,100,.28)}

@@ -86,3 +86,17 @@ Supabase / CMS / 外部通信はまだ未実装です。
     status.classList.add('is-success');
   });
 })();
+
+
+/* SECTION 09｜締めの一文を、画面に入ったときにアニメーション表示 */
+(() => {
+  const closing = document.querySelector('.message-section__closing');
+  if (!closing || !('IntersectionObserver' in window)) return;
+  closing.classList.add('is-animate');
+  const io = new IntersectionObserver((entries) => {
+    entries.forEach((e) => {
+      if (e.isIntersecting) { closing.classList.add('is-visible'); io.disconnect(); }
+    });
+  }, { rootMargin: '0px 0px -20% 0px' });
+  io.observe(closing.parentElement);
+})();

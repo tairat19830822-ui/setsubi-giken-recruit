@@ -28,3 +28,31 @@
 .site-footer{background:linear-gradient(180deg,#0750a6 0%,#023b83 100%);color:white}.site-footer__main{display:grid;grid-template-columns:1fr .7fr 1.15fr;gap:16px;align-items:center;padding:18px 36px}.site-footer__brand{display:flex;align-items:center;gap:12px}.site-footer__brand img{width:58px;height:58px;object-fit:contain}.site-footer__brand div{display:grid}.site-footer__brand strong{font-size:clamp(20px,2vw,30px)}.site-footer__brand span{font-size:14px}.site-footer__message{margin:0;font-family:"Yuji Syuku","Yu Mincho",serif;font-size:clamp(24px,2.6vw,42px);line-height:1.2;transform:rotate(-8deg);text-align:center}.site-footer__photo{margin:0;height:132px;overflow:hidden;position:relative;clip-path:polygon(12% 0,100% 0,100% 100%,0 100%)}.site-footer__photo img{width:100%;height:100%;object-fit:cover}.site-footer__photo figcaption{position:absolute;right:20px;bottom:14px;text-align:right;font-weight:700;font-size:15px}.site-footer__bottom{border-top:1px solid rgba(255,255,255,.3);padding:12px 34px;display:flex;justify-content:space-between;align-items:center;gap:18px}.site-footer__bottom nav{display:flex;gap:24px;flex-wrap:wrap}.site-footer__bottom a{color:white;text-decoration:none;font-size:12px}.site-footer__bottom small{font-size:11px}
 @media(max-width:1000px){.entry-section__inner{grid-template-columns:1fr}.entry-section__left{min-height:480px}.site-footer__main{grid-template-columns:1fr 1fr}.site-footer__photo{grid-column:1/-1}.entry-form-wrap{max-width:760px;width:100%;justify-self:center}}
 @media(max-width:680px){.entry-section__left{grid-template-columns:1fr;min-height:auto}.entry-section__photo{height:300px;clip-path:none}.entry-section__script{right:10px;top:12px}.entry-contacts{grid-template-columns:1fr}.entry-field{grid-template-columns:1fr;gap:4px}.entry-form__status{margin-left:0}.entry-form__head{grid-template-columns:42px 1fr}.entry-form__badge{grid-column:1/-1;width:95px;justify-self:end}.site-footer__main{grid-template-columns:1fr}.site-footer__bottom{display:grid}.site-footer__bottom nav{gap:14px}.site-footer__message{text-align:left;transform:none}.entry-section__title{font-size:clamp(36px,11vw,54px)}}
+
+/* 見出しを行ごとに折り返さず、読みやすいサイズ・行間に */
+.entry-section__title{font-size:clamp(34px,3.35vw,50px);line-height:1.38;letter-spacing:.04em;white-space:nowrap;margin:6px 0 22px}
+/* 写真の上に重なる文字も読みやすいよう、影をつける */
+.entry-section__title,.entry-section__body,.entry-section__sub{text-shadow:0 2px 3px rgba(0,35,90,.55),0 0 18px rgba(0,45,110,.7),0 0 34px rgba(0,45,110,.45)}
+
+/* 写真を大きく。左側の文字の後ろまで広げ、左端は背景になじませる */
+.entry-section__photo{position:absolute;right:0;top:40px;bottom:96px;width:60%;height:auto;z-index:0;clip-path:none;
+  -webkit-mask-image:linear-gradient(90deg,transparent 0,rgba(0,0,0,.35) 14%,#000 38%);
+          mask-image:linear-gradient(90deg,transparent 0,rgba(0,0,0,.35) 14%,#000 38%)}
+.entry-section__photo img{object-position:15% 18%}
+.entry-section__copy{z-index:2}
+.entry-contacts{position:relative;z-index:2;align-self:end}
+.entry-section__left{grid-template-columns:1fr}
+
+/* 「あなたの一歩を応援します！」をインパクトのある見せ方に */
+.entry-section__script{right:10px;left:auto;top:0;bottom:auto;z-index:3;text-align:right;
+  font-size:clamp(26px,2.7vw,42px);line-height:1.15;font-weight:700;color:#ffe14d;transform:rotate(-7deg);
+  text-shadow:0 3px 0 #0a3f86,0 0 16px rgba(0,30,80,.55)}
+.entry-section__script::after{content:"";display:block;height:5px;margin:6px 0 0 auto;width:78%;border-radius:4px;background:#ffe14d;box-shadow:0 3px 0 #0a3f86}
+
+@media(max-width:680px){
+  .entry-section__title{white-space:normal;font-size:clamp(30px,8.6vw,44px)}
+  .entry-section__photo{position:relative;top:auto;bottom:auto;width:auto;height:320px;-webkit-mask-image:none;mask-image:none}
+  .entry-section__photo img{object-position:center 20%}
+  .entry-section__script{top:0;font-size:clamp(20px,6vw,28px)}
+  .entry-section__copy{padding-top:64px}
+}

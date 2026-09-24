@@ -56,3 +56,18 @@
   .entry-section__script{top:0;font-size:clamp(20px,6vw,28px)}
   .entry-section__copy{padding-top:64px}
 }
+
+/* 連絡先3つ：メールアドレスが切れないよう、メール欄を広めに */
+.entry-contacts{grid-template-columns:minmax(0,1fr) minmax(0,1.45fr) minmax(0,1fr)}
+.entry-contact{min-width:0}
+.entry-contact span{min-width:0}
+.entry-contact[href^="mailto"] strong{font-size:clamp(11px,.95vw,14px);letter-spacing:0;white-space:nowrap}
+@media(max-width:1300px) and (min-width:681px){
+  .entry-contacts{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .entry-contact[href^="mailto"]{grid-column:1/-1;order:3;min-height:52px;justify-content:center}
+  .entry-contact[href^="mailto"] strong{font-size:15px}
+}
+@media(max-width:680px){
+  .entry-contacts{grid-template-columns:1fr}
+  .entry-contact[href^="mailto"] strong{font-size:15px}
+}

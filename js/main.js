@@ -145,3 +145,21 @@ Supabase / CMS / 外部通信はまだ未実装です。
   window.addEventListener('resize', onScroll, { passive: true });
   update();
 })();
+
+/* SECTION 01｜青い部分に気泡を浮かべる（見た目はsection-01.css） */
+(() => {
+  const shape = document.querySelector('.intro__blue-shape');
+  if (!shape || window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+  const count = 22;
+  for (let i = 0; i < count; i++) {
+    const b = document.createElement('span');
+    b.className = 'intro-bubble';
+    const size = 10 + Math.random() * 26;               // 気泡の大きさ(px)
+    b.style.width = b.style.height = `${size}px`;
+    b.style.left = `${2 + Math.random() * 50}%`;       // 青い部分の中に出す
+    b.style.setProperty('--dur', `${5 + Math.random() * 5}s`);
+    b.style.setProperty('--delay', `${4.8 + Math.random() * 6}s`);
+    b.style.setProperty('--sway', `${(Math.random() * 2 - 1) * 24}px`);
+    shape.appendChild(b);
+  }
+})();

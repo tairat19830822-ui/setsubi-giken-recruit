@@ -22,7 +22,14 @@ Supabase / CMS / 外部通信はまだ未実装です。
     const first = slides[0];
     const gap = parseFloat(getComputedStyle(track).gap || 0);
     const slideWidth = first ? first.getBoundingClientRect().width : 0;
-    track.style.transform = `translateX(-${index * (slideWidth + gap)}px)`;
+    // 選択中のカードを中央に置き、両端のカードは小さく表示します。
+    const viewWidth = carousel.getBoundingClientRect().width;
+    const offset = index * (slideWidth + gap) - (viewWidth - slideWidth) / 2;
+    track.style.transform = `translateX(${-offset}px)`;
+    slides.forEach((slide, i) => {
+      slide.classList.toggle('is-current', i === index);
+      slide.classList.toggle('is-side', Math.abs(i - index) === 1);
+    });
 
     thumbs.forEach((thumb, i) => {
       const active = i === index;

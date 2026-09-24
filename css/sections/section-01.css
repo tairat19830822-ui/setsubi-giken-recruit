@@ -147,3 +147,50 @@
 
 /* 大見出し・本文が写真に重なっても読めるよう、濃い青の影をつける */
 .intro__title,.intro__body{text-shadow:0 2px 4px rgba(0,30,80,.6),0 0 18px rgba(0,40,110,.75),0 0 36px rgba(0,40,110,.5)}
+
+/* ===== トップの登場アニメーション（ページを開いたときに1回だけ） =====
+   ① 男性の写真が手前からドーンと貼り付く
+   ② 女性の写真が同じように貼り付く
+   ③ 左の青い背景が左から入ってくる
+   ④ SECTION・見出し・本文・カードが上から順に降りてくる */
+@keyframes intro-slam {
+  0%   { opacity: 0; transform: scale(1.45); filter: blur(10px); }
+  70%  { opacity: 1; transform: scale(.98);  filter: blur(0); }
+  100% { opacity: 1; transform: scale(1);    filter: blur(0); }
+}
+@keyframes intro-slide-left {
+  0%   { opacity: 0; transform: translateX(-60%); }
+  100% { opacity: 1; transform: translateX(0); }
+}
+@keyframes intro-drop {
+  0%   { opacity: 0; transform: translateY(-28px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+.intro__photo--technician img { animation: intro-slam .9s cubic-bezier(.2,.8,.25,1) .1s both; }
+.intro__photo--office img     { animation: intro-slam .9s cubic-bezier(.2,.8,.25,1) .8s both; }
+/* 写真は、左の青い背景が来る場所から先には出ないように切り抜く（パソコン表示） */
+@media (min-width: 768px) {
+  .intro__photo--technician { clip-path: polygon(19% 0, 101% 0, 101% 101%, 20.3% 101%, 62.9% 48.4%); }
+  .intro__photo--office     { clip-path: polygon(-39% -51%, 110% -51%, 110% 113%, -36.8% 112.4%, 35.4% 28.1%); }
+}
+.intro__blue-shape        { animation: intro-slide-left .8s cubic-bezier(.2,.8,.25,1) 1.5s both; }
+.intro__accent-band       { animation: intro-slide-left .8s cubic-bezier(.2,.8,.25,1) 1.6s both; }
+.intro__label,
+.intro__lead,
+.intro__title > span,
+.intro__body,
+.benefit { animation: intro-drop .6s cubic-bezier(.2,.8,.25,1) both; }
+.intro__label                     { animation-delay: 2.2s; }
+.intro__lead                      { animation-delay: 2.35s; }
+.intro__title > span:nth-child(1) { animation-delay: 2.5s; }
+.intro__title > span:nth-child(2) { animation-delay: 2.62s; }
+.intro__title > span:nth-child(3) { animation-delay: 2.74s; }
+.intro__title > span:nth-child(4) { animation-delay: 2.86s; }
+.intro__body                      { animation-delay: 3.05s; }
+.benefit:nth-child(1)             { animation-delay: 3.25s; }
+.benefit:nth-child(2)             { animation-delay: 3.35s; }
+.benefit:nth-child(3)             { animation-delay: 3.45s; }
+@media (prefers-reduced-motion: reduce) {
+  .intro__photo img, .intro__blue-shape, .intro__accent-band,
+  .intro__label, .intro__lead, .intro__title > span, .intro__body, .benefit { animation: none; }
+}

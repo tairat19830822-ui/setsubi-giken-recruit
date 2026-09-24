@@ -15,20 +15,33 @@ Supabase / CMS / 外部通信はまだ未実装です。
   const dots = [...document.querySelectorAll('[data-voice-dot]')];
   let index = 0;
 
-  const maxIndex = () => Math.max(0, slides.length - 1);
+  const count = slides.length;
+  const maxIndex = () => Math.max(0, count - 1);
 
+  // 円柱の側面にカードを並べて回す表示。
+  // d = 選択中のカードから何枚離れているか（最初と最後はつながっていて、ぐるぐる回ります）
   function render() {
-    index = Math.max(0, Math.min(index, maxIndex()));
-    const first = slides[0];
-    const gap = parseFloat(getComputedStyle(track).gap || 0);
-    const slideWidth = first ? first.getBoundingClientRect().width : 0;
-    // 選択中のカードを中央に置き、両端のカードは小さく表示します。
-    const viewWidth = carousel.getBoundingClientRect().width;
-    const offset = index * (slideWidth + gap) - (viewWidth - slideWidth) / 2;
-    track.style.transform = `translateX(${-offset}px)`;
+    index = ((index % count) + count) % count;
+    const cardWidth = slides[0] ? slides[0].offsetWidth : 0;
+    const mobile = window.innerWidth <= 680;
+    const step = mobile ? 24 : 34;               // 1枚ごとの角度
+    const radius = (cardWidth * (mobile ? 0.92 : 0.9)) / Math.sin(step * Math.PI / 180);
+
     slides.forEach((slide, i) => {
-      slide.classList.toggle('is-current', i === index);
-      slide.classList.toggle('is-side', Math.abs(i - index) === 1);
+      let d = i - index;
+      if (d > count / 2) d -= count;
+      if (d < -count / 2) d += count;
+      const angle = d * step;
+      const rad = angle * Math.PI / 180;
+      const x = radius * Math.sin(rad);
+      const z = radius * (Math.cos(rad) - 1);
+      const scale = d === 0 ? 1 : 0.72;            // 左右のカードの大きさ
+      slide.style.transform = `translateX(${x}px) translateZ(${z}px) rotateY(${angle}deg) scale(${scale})`;
+      slide.style.opacity = Math.abs(d) <= 1 ? (d === 0 ? '1' : '.4') : '0';
+      slide.style.zIndex = String(10 - Math.abs(d));
+      slide.style.pointerEvents = d === 0 ? 'auto' : 'none';
+      slide.classList.toggle('is-current', d === 0);
+      slide.setAttribute('aria-hidden', String(d !== 0));
     });
 
     thumbs.forEach((thumb, i) => {
@@ -39,8 +52,8 @@ Supabase / CMS / 外部通信はまだ未実装です。
     dots.forEach((dot, i) => dot.classList.toggle('is-active', i === index));
   }
 
-  prev?.addEventListener('click', () => { index = index <= 0 ? maxIndex() : index - 1; render(); });
-  next?.addEventListener('click', () => { index = index >= maxIndex() ? 0 : index + 1; render(); });
+  prev?.addEventListener('click', () => { index -= 1; render(); });
+  next?.addEventListener('click', () => { index += 1; render(); });
   thumbs.forEach((thumb) => thumb.addEventListener('click', () => { index = Number(thumb.dataset.voiceThumb || 0); render(); }));
   dots.forEach((dot) => dot.addEventListener('click', () => { index = Number(dot.dataset.voiceDot || 0); render(); }));
   window.addEventListener('resize', render, { passive: true });

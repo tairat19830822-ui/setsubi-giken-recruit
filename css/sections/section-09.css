@@ -58,12 +58,6 @@
   .message-section__closing{font-size:clamp(24px,8vw,34px)}
 }
 
-/* 締めの一文：画面に入ったら左から書かれるように表示し、下線を引く */
-.message-section__closing.is-animate{clip-path:inset(-20% 100% -40% 0);transition:clip-path 1.6s cubic-bezier(.45,.05,.3,1)}
-.message-section__closing.is-animate::after{transform:skewX(-24deg) scaleX(0);transform-origin:left;transition:transform .8s ease 1.4s}
-.message-section__closing.is-animate.is-visible{clip-path:inset(-20% -5% -40% 0)}
-.message-section__closing.is-animate.is-visible::after{transform:skewX(-24deg) scaleX(1)}
-@media (prefers-reduced-motion: reduce){
-  .message-section__closing.is-animate{clip-path:none;transition:none}
-  .message-section__closing.is-animate::after{transform:skewX(-24deg);transition:none}
-}
+/* 締めの一文：スクロールに合わせて1文字ずつ、手前から飛んできて貼り付く（動きはmain.js） */
+.message-section__closing .fly-char{display:inline-block;will-change:transform,opacity,filter;transform-origin:50% 60%}
+.message-section__closing.is-scroll-anim::after{transform-origin:left;transform:skewX(-24deg) scaleX(var(--line,0))}

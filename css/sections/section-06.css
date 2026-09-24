@@ -153,22 +153,21 @@
   .voices-thumbs { gap:9px; flex-wrap:wrap; }
 }
 
-/* カルーセル：中央のカードを大きく、端のカードを小さく表示 */
+/* カルーセル：円柱の側面を回るように表示（位置はmain.jsで計算） */
+.voices-carousel { perspective: 1800px; perspective-origin: 50% 50%; }
+.voices-carousel__track {
+  display: grid;
+  justify-items: center;
+  transform: none !important;
+  transform-style: preserve-3d;
+}
 .voice-card {
-  flex-basis: min(54%, 760px);
-  transform: scale(.8);
-  opacity: .45;
-  transition: transform .45s cubic-bezier(.22,.61,.36,1), opacity .45s ease;
+  grid-area: 1 / 1;
+  width: min(50%, 720px);
+  flex: none;
+  backface-visibility: hidden;
+  transition: transform .6s cubic-bezier(.22,.61,.36,1), opacity .6s ease, filter .6s ease;
 }
-.voice-card.is-side { opacity: .7; }
-.voice-card.is-current { transform: scale(1); opacity: 1; }
-@media (max-width: 960px) {
-  .voice-card { flex-basis: 80%; }
-}
-@media (max-width: 680px) {
-  .voice-card { flex-basis: 84%; transform: scale(.9); }
-  .voice-card.is-current { transform: scale(1); }
-}
-@media (prefers-reduced-motion: reduce) {
-  .voice-card, .voices-carousel__track { transition: none; }
-}
+@media (max-width: 960px) { .voice-card { width: 72%; } }
+@media (max-width: 680px) { .voice-card { width: 82%; } }
+@media (prefers-reduced-motion: reduce) { .voice-card { transition: none; } }
